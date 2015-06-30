@@ -111,7 +111,7 @@ interface ProfferPathInterface
 
     /**
      * Will create a new seed for new uploads. Should also pass back existing seed for new uploads to the same record.
-     * Default return is String::uuid()
+     * Default return is Text::uuid()
      *
      * @param string $seed The existing seed if one exists
      * @return string
